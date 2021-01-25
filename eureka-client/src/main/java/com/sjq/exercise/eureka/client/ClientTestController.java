@@ -2,6 +2,7 @@ package com.sjq.exercise.eureka.client;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -10,7 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @author: sujiqiang
  * @Date: 2021/1/18 18:16
  */
-@RestController(value = "/client")
+@RequestMapping(value = "/client")
+@RestController
 public class ClientTestController {
 
     @Value("${server.port}")

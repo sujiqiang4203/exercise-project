@@ -1,6 +1,7 @@
 package com.sjq.exercise.eureka.server;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -9,7 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @author: sujiqiang
  * @Date: 2021/1/18 19:35
  */
-@RestController(value = "/server")
+@RestController
+@RequestMapping(value = "/server")
 public class ServerTestController {
 
     @GetMapping(value = "/hello")
