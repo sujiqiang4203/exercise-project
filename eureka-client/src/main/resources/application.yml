@@ -8,5 +8,14 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      #      服务端有安全认证
+      defaultZone: http://sujiqiang:123456@localhost:8761/eureka/
+#      健康检查
+    healthcheck:
+      enabled: true
+  instance:
+#    Eureka Client 发送心跳给 server 端的频率
+    lease-renewal-interval-in-seconds: 30
+#    Eureka Server 至上一次收到 client 的心跳之后，等待下一次心跳的超时时间，在这个时间内若没收到下一次心跳，则移除该 Instance
+    lease-expiration-duration-in-seconds: 30
 

@@ -5,7 +5,7 @@ spring:
   application:
     name: euraka-server
 
-#    安全认证
+  #    安全认证
   security:
     user:
       name: sujiqiang
@@ -14,8 +14,17 @@ spring:
 eureka:
   instance:
     hostname: localhost
+    #    ip注册
+    ip-address: 127.0.0.1
+    prefer-ip-address: false
+  #    status-page-url: sjq.com
   client:
     register-with-eureka: false
     fetch-registry: false
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  #      自我保护模式
+  server:
+    enable-self-preservation: true
+    #    清理失效服务信息的间隔
+    eviction-interval-timer-in-ms: 30000
