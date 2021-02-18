@@ -26,15 +26,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e996fa3f-7135-4998-9ace-3fffb3d31324" name="Default Changelist" comment="学习一些属性">
+      <change afterPath="$PROJECT_DIR$/ribbon-server-center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-server-center/src/main/java/com/sjq/exercise/ribbon/server/center/RibbonServerCenterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-server-center/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/com/sjq/exercise/eureka/client/ClientTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/sjq/exercise/eureka/client/ClientTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/com/sjq/exercise/eureka/client/EurekaClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/sjq/exercise/eureka/client/EurekaClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/sjq/exercise/eureka/server/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/sjq/exercise/eureka/server/EurekaServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/sjq/exercise/eureka/server/ServerTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/sjq/exercise/eureka/server/ServerTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/sjq/exercise/eureka/server/SpringBootSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/sjq/exercise/eureka/server/SpringBootSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/exercise-project-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +67,7 @@
   <component name="ProjectId" id="1nbqrmmUdHuoGYpLs4yjv9aik7m" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -80,11 +82,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ribbon-server-center/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429309" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
@@ -95,13 +97,22 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ribbon-server-user/src/main/java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ribbon-server-center/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ribbon-server-center/src/main/java" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install -u maven.test.skip=true" />
       <command value="mvn clean install -U maven.test.skip=true" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaClientApplication">
+  <component name="RunManager" selected="Spring Boot.RibbonServerCenterApplication">
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eureka-client" />
       <extension name="coverage">
@@ -134,9 +145,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RibbonServerCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ribbon-server-center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sjq.exercise.ribbon.server.center.RibbonServerCenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.EurekaClientApplication" />
+      <item itemvalue="Spring Boot.RibbonServerCenterApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -198,56 +217,64 @@
     <option name="LAST_COMMIT_MESSAGE" value="学习一些属性" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="208" y="28" key="#Project_Structure" timestamp="1613654078958">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="28" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1613654078958" />
+    <state x="338" y="143" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1613654111114">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="338" y="143" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.900@0.0.1440.900" timestamp="1613654111114" />
     <state x="483" y="157" key="#xdebugger.evaluate" timestamp="1613624935990">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="483" y="157" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1613624935990" />
-    <state width="1398" height="371" key="GridCell.Tab.0.bottom" timestamp="1613625490940">
+    <state width="1398" height="363" key="GridCell.Tab.0.bottom" timestamp="1613654114034">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="371" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1613625490940" />
+    <state width="1398" height="363" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1613654114034" />
     <state width="1398" height="317" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1612536084169" />
     <state width="1398" height="390" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1613577212392" />
-    <state width="1398" height="371" key="GridCell.Tab.0.center" timestamp="1613625490937">
+    <state width="1398" height="363" key="GridCell.Tab.0.center" timestamp="1613654114033">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="371" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1613625490937" />
+    <state width="1398" height="363" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1613654114033" />
     <state width="1398" height="317" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1612536084165" />
     <state width="1398" height="390" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1613577212392" />
-    <state width="1398" height="371" key="GridCell.Tab.0.left" timestamp="1613625490936">
+    <state width="1398" height="363" key="GridCell.Tab.0.left" timestamp="1613654114032">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="371" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1613625490936" />
+    <state width="1398" height="363" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1613654114032" />
     <state width="1398" height="317" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1612536084163" />
     <state width="1398" height="390" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1613577212391" />
-    <state width="1398" height="371" key="GridCell.Tab.0.right" timestamp="1613625490939">
+    <state width="1398" height="363" key="GridCell.Tab.0.right" timestamp="1613654114034">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="371" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1613625490939" />
+    <state width="1398" height="363" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1613654114034" />
     <state width="1398" height="317" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1612536084167" />
     <state width="1398" height="390" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1613577212392" />
-    <state width="1398" height="371" key="GridCell.Tab.1.bottom" timestamp="1613625490942">
+    <state width="1398" height="363" key="GridCell.Tab.1.bottom" timestamp="1613654114036">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="371" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1613625490942" />
+    <state width="1398" height="363" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1613654114036" />
     <state width="1398" height="317" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1612536084178" />
     <state width="1398" height="371" key="GridCell.Tab.1.bottom/0.25.1440.790@0.25.1440.790" timestamp="1613624767158" />
-    <state width="1398" height="371" key="GridCell.Tab.1.center" timestamp="1613625490941">
+    <state width="1398" height="363" key="GridCell.Tab.1.center" timestamp="1613654114035">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="371" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1613625490941" />
+    <state width="1398" height="363" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1613654114035" />
     <state width="1398" height="317" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1612536084173" />
     <state width="1398" height="371" key="GridCell.Tab.1.center/0.25.1440.790@0.25.1440.790" timestamp="1613624767154" />
-    <state width="1398" height="371" key="GridCell.Tab.1.left" timestamp="1613625490941">
+    <state width="1398" height="363" key="GridCell.Tab.1.left" timestamp="1613654114035">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="371" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1613625490941" />
+    <state width="1398" height="363" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1613654114035" />
     <state width="1398" height="317" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1612536084171" />
     <state width="1398" height="371" key="GridCell.Tab.1.left/0.25.1440.790@0.25.1440.790" timestamp="1613624767150" />
-    <state width="1398" height="371" key="GridCell.Tab.1.right" timestamp="1613625490942">
+    <state width="1398" height="363" key="GridCell.Tab.1.right" timestamp="1613654114036">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="371" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1613625490942" />
+    <state width="1398" height="363" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1613654114036" />
     <state width="1398" height="317" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1612536084176" />
     <state width="1398" height="371" key="GridCell.Tab.1.right/0.25.1440.790@0.25.1440.790" timestamp="1613624767155" />
     <state width="1398" height="371" key="GridCell.Tab.2.bottom" timestamp="1613625490945">
@@ -290,10 +317,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="394" y="245" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1613574901286" />
-    <state x="561" y="199" key="new project wizard" timestamp="1613574928441">
+    <state x="561" y="199" key="new project wizard" timestamp="1613654258710">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="561" y="199" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1613574928441" />
+    <state x="561" y="199" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1613654258710" />
     <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1613623591219">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

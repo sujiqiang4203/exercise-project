@@ -9,10 +9,12 @@
         <module name="exercise-project" />
         <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="ribbon-server-center" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="euraka" target="1.8" />
+      <module name="ribbon-server-user" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -20,6 +22,7 @@
       <module name="euraka" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="ribbon-server-center" options="-parameters" />
     </option>
   </component>
 </project>
