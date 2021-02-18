@@ -6,10 +6,10 @@ spring:
     name: euraka-server
 
   #    安全认证
-  security:
-    user:
-      name: sujiqiang
-      password: 123456
+#  security:
+#    user:
+#      name: sujiqiang
+#     password: 123456
 
 eureka:
   instance:
