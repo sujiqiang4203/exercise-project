@@ -1,4 +1,4 @@
-package com.sjq.exercise.ribbon.server.center;
+package com.sjq.exercise.ribbon.server.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,11 +9,11 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  */
 @EnableEurekaServer
 @SpringBootApplication
-public class RibbonServerCenterApplication {
+public class RibbonServerUserApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RibbonServerCenterApplication.class, args);
-        System.out.println("springCloud ribbon server center start --------------");
+        SpringApplication.run(RibbonServerUserApplication.class, args);
+        System.out.println("springCloud ribbon server user start --------------");
     }
 
 }
