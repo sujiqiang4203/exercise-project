@@ -1,5 +1,13 @@
 # exercise-project
 学习项目
 
-# eureka-server
-提供了服务注册的web管理页面，为了安全，加入spring-security，访问时需要认证
+### eureka-server-center 
+【10086】 服务注册中心
+
+### user-server
+【】服务提供者
+
+
+### order-consumer
+【】 服务消费者 
+

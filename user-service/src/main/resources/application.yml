@@ -1,0 +1,21 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: user-service
+
+eureka:
+  instance:
+    hostname: localhost
+
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:10086/eureka/
+  #      自我保护模式
+  server:
+    enable-self-preservation: true
+    #    清理失效服务信息的间隔
+    eviction-interval-timer-in-ms: 30000
