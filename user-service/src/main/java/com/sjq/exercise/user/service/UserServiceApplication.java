@@ -2,12 +2,13 @@ package com.sjq.exercise.user.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @author IT00003849
  */
-@EnableEurekaServer
+//eureka 客户端发现
+@EnableDiscoveryClient
 @SpringBootApplication
 public class UserServiceApplication {
 

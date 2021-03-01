@@ -3,6 +3,7 @@ server:
 
 spring:
   application:
+    #    eureka 中作为 serviceId
     name: eureka-server-center
 
 eureka:
@@ -13,4 +14,5 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
+      #      注册中心的地址，集群部署时 写多个，用,隔开
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

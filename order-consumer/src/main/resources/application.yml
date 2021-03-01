@@ -6,10 +6,9 @@ spring:
     name: order-consumer
 
 eureka:
-  instance:
-    hostname: localhost
   client:
+    #    默认为true：自动注册到 注册中心
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://localhost:10086/eureka
+      defaultZone: http://localhost:10086/eureka/
