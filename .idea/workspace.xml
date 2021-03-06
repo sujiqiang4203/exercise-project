@@ -28,24 +28,23 @@
   <component name="ChangeListManager">
     <list default="true" id="e996fa3f-7135-4998-9ace-3fffb3d31324" name="Default Changelist" comment="学习一些属性">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-center/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server-center/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-center/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-consumer/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-consumer/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/OrderConsumerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/OrderConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/OrderConsumerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/OrderConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/OrderConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-consumer/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-consumer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/sjq/exercise/user/service/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sjq/exercise/user/service/UserServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -94,7 +93,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429309" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -128,7 +127,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication(9999)">
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sjq.exercise.demo.DemoApplication" />
@@ -136,7 +135,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServerCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="EurekaServerCenterApplication(10086)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server-center" />
       <extension name="coverage">
         <pattern>
@@ -145,6 +144,23 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sjq.exercise.eureka.server.center.EurekaServerCenterApplication" />
+      <option name="VM_PARAMETERS" value="-Dport=10086 -DdefaultZone=http://127.0.0.1:10087/eureka" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerCenterApplication(10087)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server-center" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sjq.exercise.eureka.server.center.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sjq.exercise.eureka.server.center.EurekaServerCenterApplication" />
+      <option name="VM_PARAMETERS" value="-Dport=10087 -DdefaultZone=http://127.0.0.1:10086/eureka" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,7 +172,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceApplication(9998)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="user-service" />
       <extension name="coverage">
         <pattern>
@@ -165,14 +181,38 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sjq.exercise.user.service.UserServiceApplication" />
+      <option name="VM_PARAMETERS" value="-Dport=9998" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserServiceApplication(9999)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sjq.exercise.user.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sjq.exercise.user.service.UserServiceApplication" />
+      <option name="VM_PARAMETERS" value="-Dport=9999" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.OrderConsumerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerCenterApplication(10087)" />
+      <item itemvalue="Spring Boot.EurekaServerCenterApplication(10086)" />
+      <item itemvalue="Spring Boot.UserServiceApplication(9998)" />
+      <item itemvalue="Spring Boot.UserServiceApplication(9999)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserServiceApplication" />
-        <item itemvalue="Spring Boot.EurekaServerCenterApplication" />
+        <item itemvalue="Spring Boot.UserServiceApplication(9999)" />
       </list>
     </recent_temporary>
   </component>
@@ -251,10 +291,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="28" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1614505009555" />
-    <state x="184" y="109" width="1188" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614422798428">
+    <state x="184" y="109" width="1188" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614661380717">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="109" width="1188" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1614422798428" />
+    <state x="184" y="109" width="1188" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1614661380717" />
     <state x="338" y="143" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1613654111114">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -263,78 +303,83 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1614501311786" />
-    <state x="483" y="157" key="#xdebugger.evaluate" timestamp="1613624935990">
+    <state x="483" y="157" key="#xdebugger.evaluate" timestamp="1615028656990">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="483" y="157" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1613624935990" />
-    <state width="1007" height="348" key="GridCell.Tab.0.bottom" timestamp="1614575445018">
+    <state x="483" y="157" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1615028656990" />
+    <state width="445" height="466" key="DebuggerActiveHint" timestamp="1615028051318">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1007" height="348" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614575445018" />
+    <state width="445" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1615028051318" />
+    <state width="1013" height="318" key="GridCell.Tab.0.bottom" timestamp="1615029333733">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1013" height="318" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1615029333733" />
     <state width="1398" height="317" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1612536084169" />
-    <state width="1007" height="389" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1614528440141" />
-    <state width="1007" height="348" key="GridCell.Tab.0.center" timestamp="1614575445016">
+    <state width="1013" height="385" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1615028829916" />
+    <state width="1013" height="318" key="GridCell.Tab.0.center" timestamp="1615029333731">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1007" height="348" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614575445016" />
+    <state width="1013" height="318" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1615029333731" />
     <state width="1398" height="317" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1612536084165" />
-    <state width="1007" height="389" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1614528440139" />
-    <state width="1007" height="348" key="GridCell.Tab.0.left" timestamp="1614575445015">
+    <state width="1013" height="385" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1615028829915" />
+    <state width="1013" height="318" key="GridCell.Tab.0.left" timestamp="1615029333731">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1007" height="348" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614575445015" />
+    <state width="1013" height="318" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1615029333731" />
     <state width="1398" height="317" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1612536084163" />
-    <state width="1007" height="389" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1614528440139" />
-    <state width="1007" height="348" key="GridCell.Tab.0.right" timestamp="1614575445017">
+    <state width="1013" height="385" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1615028829915" />
+    <state width="1013" height="318" key="GridCell.Tab.0.right" timestamp="1615029333732">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1007" height="348" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614575445017" />
+    <state width="1013" height="318" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1615029333732" />
+    <state width="1013" height="385" key="GridCell.Tab.0.right/0.0.1440.900@0.25.1440.790" timestamp="1615027959374" />
     <state width="1398" height="317" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1612536084167" />
-    <state width="1007" height="389" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1614528440140" />
-    <state width="1007" height="348" key="GridCell.Tab.1.bottom" timestamp="1614575445021">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1013" height="385" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1615028829916" />
+    <state width="1013" height="318" key="GridCell.Tab.1.bottom" timestamp="1615029331750">
+      <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state width="1007" height="348" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614575445021" />
+    <state width="1013" height="318" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1615029285604" />
     <state width="1398" height="317" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1612536084178" />
-    <state width="1007" height="389" key="GridCell.Tab.1.bottom/0.25.1440.790@0.25.1440.790" timestamp="1614528440145" />
-    <state width="1007" height="348" key="GridCell.Tab.1.center" timestamp="1614575445020">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1013" height="318" key="GridCell.Tab.1.bottom/0.25.1440.790@0.25.1440.790" timestamp="1615029331750" />
+    <state width="1013" height="318" key="GridCell.Tab.1.center" timestamp="1615029331749">
+      <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state width="1007" height="348" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1614575445020" />
+    <state width="1013" height="318" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1615029285603" />
     <state width="1398" height="317" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1612536084173" />
-    <state width="1007" height="389" key="GridCell.Tab.1.center/0.25.1440.790@0.25.1440.790" timestamp="1614528440143" />
-    <state width="1007" height="348" key="GridCell.Tab.1.left" timestamp="1614575445019">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1013" height="318" key="GridCell.Tab.1.center/0.25.1440.790@0.25.1440.790" timestamp="1615029331749" />
+    <state width="1013" height="318" key="GridCell.Tab.1.left" timestamp="1615029331748">
+      <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state width="1007" height="348" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1614575445019" />
+    <state width="1013" height="318" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1615029285602" />
     <state width="1398" height="317" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1612536084171" />
-    <state width="1007" height="389" key="GridCell.Tab.1.left/0.25.1440.790@0.25.1440.790" timestamp="1614528440142" />
-    <state width="1007" height="348" key="GridCell.Tab.1.right" timestamp="1614575445020">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1013" height="318" key="GridCell.Tab.1.left/0.25.1440.790@0.25.1440.790" timestamp="1615029331748" />
+    <state width="1013" height="318" key="GridCell.Tab.1.right" timestamp="1615029331749">
+      <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state width="1007" height="348" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1614575445020" />
+    <state width="1013" height="318" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1615029285604" />
     <state width="1398" height="317" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1612536084176" />
-    <state width="1007" height="389" key="GridCell.Tab.1.right/0.25.1440.790@0.25.1440.790" timestamp="1614528440144" />
-    <state width="1007" height="348" key="GridCell.Tab.2.bottom" timestamp="1614575445029">
+    <state width="1013" height="318" key="GridCell.Tab.1.right/0.25.1440.790@0.25.1440.790" timestamp="1615029331749" />
+    <state width="1013" height="318" key="GridCell.Tab.2.bottom" timestamp="1615029285609">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1007" height="348" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614575445029" />
-    <state width="1007" height="352" key="GridCell.Tab.2.bottom/0.25.1440.790@0.25.1440.790" timestamp="1614528439997" />
-    <state width="1007" height="348" key="GridCell.Tab.2.center" timestamp="1614575445027">
+    <state width="1013" height="318" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1615029285609" />
+    <state width="1013" height="385" key="GridCell.Tab.2.bottom/0.25.1440.790@0.25.1440.790" timestamp="1615028829919" />
+    <state width="1013" height="318" key="GridCell.Tab.2.center" timestamp="1615029285607">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1007" height="348" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1614575445027" />
-    <state width="1007" height="352" key="GridCell.Tab.2.center/0.25.1440.790@0.25.1440.790" timestamp="1614528439994" />
-    <state width="1007" height="348" key="GridCell.Tab.2.left" timestamp="1614575445026">
+    <state width="1013" height="318" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1615029285607" />
+    <state width="1013" height="385" key="GridCell.Tab.2.center/0.25.1440.790@0.25.1440.790" timestamp="1615028829918" />
+    <state width="1013" height="318" key="GridCell.Tab.2.left" timestamp="1615029285605">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1007" height="348" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1614575445026" />
-    <state width="1007" height="352" key="GridCell.Tab.2.left/0.25.1440.790@0.25.1440.790" timestamp="1614528439992" />
-    <state width="1007" height="348" key="GridCell.Tab.2.right" timestamp="1614575445028">
+    <state width="1013" height="318" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1615029285605" />
+    <state width="1013" height="385" key="GridCell.Tab.2.left/0.25.1440.790@0.25.1440.790" timestamp="1615028829918" />
+    <state width="1013" height="318" key="GridCell.Tab.2.right" timestamp="1615029285608">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1007" height="348" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1614575445028" />
-    <state width="1007" height="352" key="GridCell.Tab.2.right/0.25.1440.790@0.25.1440.790" timestamp="1614528439995" />
+    <state width="1013" height="318" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1615029285608" />
+    <state width="1013" height="385" key="GridCell.Tab.2.right/0.25.1440.790@0.25.1440.790" timestamp="1615028829919" />
     <state x="258" y="109" key="Maven.ArtifactSearchDialog" timestamp="1613575510419">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -343,14 +388,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="342" y="153" key="NewModule_or_Project.wizard/0.0.1440.900@0.0.1440.900" timestamp="1614501127997" />
-    <state x="268" y="63" key="SettingsEditor" timestamp="1614500303907">
+    <state x="268" y="63" key="SettingsEditor" timestamp="1615029581938">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="268" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1614500303907" />
+    <state x="268" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1615029581938" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1612187792033">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1612187792033" />
+    <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1615028044248">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1615028044248" />
     <state x="420" y="207" width="726" height="486" key="find.popup" timestamp="1614502270634">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -367,10 +416,21 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1613623591219" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1614574653779">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1615027774794">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1614574653779" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1615027774794" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/OrderConsumerController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="D:\test_project\exercise-project\eureka-server" />

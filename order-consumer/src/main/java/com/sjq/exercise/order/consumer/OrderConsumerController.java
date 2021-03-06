@@ -24,7 +24,9 @@ public class OrderConsumerController {
 
     @GetMapping("/getUserServerInfo")
     public String getUserServerInfo() {
-        return restTemplate.getForObject("http://localhost:9999/user/serverInfo", String.class);
+        // 注意：使用了 @LoadBalanced 之后，这里不能用 ip地址，需要使用注册的服务名
+        //return restTemplate.getForObject("http://127.0.0.1:9999/user/serverInfo", String.class);
+        return restTemplate.getForObject("http://USER-SERVICE:9999/user/serverInfo", String.class);
     }
 
     @GetMapping("/getUserServerInfo2")
@@ -33,7 +35,9 @@ public class OrderConsumerController {
         List<ServiceInstance> instances = discoveryClient.getInstances("user-service");
         if (!CollectionUtils.isEmpty(instances)) {
             ServiceInstance instance = instances.get(0);
-            String url = "http://" + instance.getHost() + ":" + instance.getPort() + "/user/serverInfo";
+            // 注意：使用了 @LoadBalanced 之后，这里不能用 ip地址，需要使用注册的服务名
+            String url = "http://" + instance.getServiceId() + ":" + instance.getPort() + "/user/serverInfo";
+            System.out.println("url = " + url);
             return restTemplate.getForObject(url, String.class);
         } else {
             return "获取服务实例失败";
