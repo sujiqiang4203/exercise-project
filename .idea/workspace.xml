@@ -29,40 +29,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e996fa3f-7135-4998-9ace-3fffb3d31324" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/sjq/exercise/design/pattern/builderPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/sjq/exercise/design/pattern/builderPattern/builder/BenzBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/sjq/exercise/design/pattern/builderPattern/builder/BmwBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/sjq/exercise/design/pattern/builderPattern/builder/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/sjq/exercise/design/pattern/builderPattern/director/CarDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/sjq/exercise/design/pattern/builderPattern/model/BenzModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/sjq/exercise/design/pattern/builderPattern/model/BmwModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/sjq/exercise/design/pattern/builderPattern/model/CarModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/redis/RedisLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/redis/RedisLockController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/OrderConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/OrderConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-center/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-center/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/OrderConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/OrderConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/OrderConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/OrderConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="e996fa3f-7135-4998-9ace-3fffb3d31324" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -80,7 +51,6 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -218,7 +188,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429309" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -256,69 +226,48 @@
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sjq.exercise.design.pattern.builderPattern.Client" />
       <module name="design-pattern" />
-  <component name="RunManager" selected="Spring Boot.UserServiceApplication(9999)">
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sjq.exercise.demo.DemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServerCenterApplication(10086)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eureka-server-center" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sjq.exercise.eureka.server.center.*" />
+          <option name="PATTERN" value="com.sjq.exercise.design.pattern.builderPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sjq.exercise.eureka.server.center.EurekaServerCenterApplication" />
-      <option name="VM_PARAMETERS" value="-Dport=10086 -DdefaultZone=http://127.0.0.1:10087/eureka" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServerCenterApplication(10087)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eureka-server-center" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesignPatternApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sjq.exercise.eureka.server.center.*" />
+          <option name="PATTERN" value="com.sjq.exercise.design.pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sjq.exercise.eureka.server.center.EurekaServerCenterApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="order-consumer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sjq.exercise.order.consumer.OrderConsumerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="user-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sjq.exercise.user.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sjq.exercise.user.service.UserServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sjq.exercise.design.pattern.DesignPatternApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserServiceApplication" />
-        <item itemvalue="Spring Boot.EurekaServerCenterApplication" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Spring Boot.DesignPatternApplication" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -336,14 +285,73 @@
       <workItem from="1614131981648" duration="7825000" />
       <workItem from="1614235283211" duration="1647000" />
       <workItem from="1614327424926" duration="4445000" />
+      <workItem from="1614944968992" duration="4843000" />
+      <workItem from="1620371622075" duration="5742000" />
     </task>
+    <task id="LOCAL-00001" summary="设计模式">
+      <created>1620389410096</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620389410096</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21628000" />
+    <option name="totallyTimeSpent" value="27212000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-1088" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2815846" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8137045" weight="0.28603104" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.41574278" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3292683" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.18629551" side_tool="true" weight="0.28603104" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3292683" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3292683" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.31374723" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.15042827" />
+      <window_info anchor="right" id="PlantUML" order="4" weight="0.32976446" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -387,133 +395,124 @@
     <MESSAGE value="依赖优化；&#10;解决接口请求不到问题" />
     <MESSAGE value="spring-security" />
     <MESSAGE value="学习一些属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习一些属性" />
+    <MESSAGE value="设计模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="208" y="28" key="#Project_Structure" timestamp="1614505009555">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="208" y="28" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1614505009555" />
-    <state x="184" y="109" width="1188" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614422798428">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="184" y="109" width="1188" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1614422798428" />
-    <state x="338" y="143" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1613654111114">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="338" y="143" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.900@0.0.1440.900" timestamp="1613654111114" />
-    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614501311786">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1614501311786" />
-    <state x="483" y="157" key="#xdebugger.evaluate" timestamp="1613624935990">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="483" y="157" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1613624935990" />
-    <state width="1007" height="348" key="GridCell.Tab.0.bottom" timestamp="1614575445018">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1007" height="348" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614575445018" />
-    <state width="1398" height="317" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1612536084169" />
-    <state width="1007" height="389" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1614528440141" />
-    <state width="1007" height="348" key="GridCell.Tab.0.center" timestamp="1614575445016">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1007" height="348" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614575445016" />
-    <state width="1398" height="317" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1612536084165" />
-    <state width="1007" height="389" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1614528440139" />
-    <state width="1007" height="348" key="GridCell.Tab.0.left" timestamp="1614575445015">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1007" height="348" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614575445015" />
-    <state width="1398" height="317" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1612536084163" />
-    <state width="1007" height="389" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1614528440139" />
-    <state width="1007" height="348" key="GridCell.Tab.0.right" timestamp="1614575445017">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1007" height="348" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614575445017" />
-    <state width="1398" height="317" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1612536084167" />
-    <state width="1007" height="389" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1614528440140" />
-    <state width="1007" height="348" key="GridCell.Tab.1.bottom" timestamp="1614575445021">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1007" height="348" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614575445021" />
-    <state width="1398" height="317" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1612536084178" />
-    <state width="1007" height="389" key="GridCell.Tab.1.bottom/0.25.1440.790@0.25.1440.790" timestamp="1614528440145" />
-    <state width="1007" height="348" key="GridCell.Tab.1.center" timestamp="1614575445020">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1007" height="348" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1614575445020" />
-    <state width="1398" height="317" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1612536084173" />
-    <state width="1007" height="389" key="GridCell.Tab.1.center/0.25.1440.790@0.25.1440.790" timestamp="1614528440143" />
-    <state width="1007" height="348" key="GridCell.Tab.1.left" timestamp="1614575445019">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1007" height="348" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1614575445019" />
-    <state width="1398" height="317" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1612536084171" />
-    <state width="1007" height="389" key="GridCell.Tab.1.left/0.25.1440.790@0.25.1440.790" timestamp="1614528440142" />
-    <state width="1007" height="348" key="GridCell.Tab.1.right" timestamp="1614575445020">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1007" height="348" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1614575445020" />
-    <state width="1398" height="317" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1612536084176" />
-    <state width="1007" height="389" key="GridCell.Tab.1.right/0.25.1440.790@0.25.1440.790" timestamp="1614528440144" />
-    <state width="1007" height="348" key="GridCell.Tab.2.bottom" timestamp="1614575445029">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1007" height="348" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614575445029" />
-    <state width="1007" height="352" key="GridCell.Tab.2.bottom/0.25.1440.790@0.25.1440.790" timestamp="1614528439997" />
-    <state width="1007" height="348" key="GridCell.Tab.2.center" timestamp="1614575445027">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1007" height="348" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1614575445027" />
-    <state width="1007" height="352" key="GridCell.Tab.2.center/0.25.1440.790@0.25.1440.790" timestamp="1614528439994" />
-    <state width="1007" height="348" key="GridCell.Tab.2.left" timestamp="1614575445026">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1007" height="348" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1614575445026" />
-    <state width="1007" height="352" key="GridCell.Tab.2.left/0.25.1440.790@0.25.1440.790" timestamp="1614528439992" />
-    <state width="1007" height="348" key="GridCell.Tab.2.right" timestamp="1614575445028">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1007" height="348" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1614575445028" />
-    <state width="1007" height="352" key="GridCell.Tab.2.right/0.25.1440.790@0.25.1440.790" timestamp="1614528439995" />
-    <state x="258" y="109" key="Maven.ArtifactSearchDialog" timestamp="1613575510419">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="258" y="109" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1613575510419" />
-    <state x="342" y="153" key="NewModule_or_Project.wizard" timestamp="1614501127997">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="342" y="153" key="NewModule_or_Project.wizard/0.0.1440.900@0.0.1440.900" timestamp="1614501127997" />
-    <state x="268" y="63" key="SettingsEditor" timestamp="1614500303907">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="268" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1614500303907" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1612187792033">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1612187792033" />
-    <state x="420" y="207" width="726" height="486" key="find.popup" timestamp="1614502270634">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="420" y="207" width="726" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1614502270634" />
-    <state x="394" y="245" key="git4idea.merge.GitPullDialog" timestamp="1614500326161">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="394" y="245" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1614500326161" />
-    <state x="561" y="199" width="729" height="508" key="new project wizard" timestamp="1614501284613">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="561" y="199" width="729" height="508" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1614501284613" />
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1613623591219">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1613623591219" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1614574653779">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1614574653779" />
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../software/maven-repository/org/springframework/cloud/spring-cloud-commons/3.0.1/spring-cloud-commons-3.0.1.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../software/maven-repository/org/springframework/boot/spring-boot-starter-data-redis/2.4.2/spring-boot-starter-data-redis-2.4.2.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1157" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-consumer/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../software/maven-repository/org/springframework/spring-web/5.3.3/spring-web-5.3.3.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../software/maven-repository/org/springframework/spring-webmvc/5.3.3/spring-webmvc-5.3.3.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../software/maven-repository/org/springframework/spring-webmvc/5.3.3/spring-webmvc-5.3.3.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="486" selection-start-line="486" selection-end-line="486" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../software/maven-repository/org/springframework/spring-webmvc/5.3.3/spring-webmvc-5.3.3.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../software/maven-repository/org/springframework/spring-webmvc/5.3.3/spring-webmvc-5.3.3.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="537" selection-start-line="537" selection-end-line="537" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/OrderConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/redis/RedisLockController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../software/maven-repository/org/springframework/data/spring-data-redis/2.4.3/spring-data-redis-2.4.3.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="247" column="17" selection-start-line="247" selection-start-column="17" selection-end-line="247" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/redis/RedisLock2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-consumer/src/main/java/com/sjq/exercise/order/consumer/redis/RedisLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#lock#0;class#RedisLock#0" />
+            <element signature="method#unlock#0;class#RedisLock#0" />
+            <element signature="method#isLocked#0;class#RedisLock#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="D:\test_project\exercise-project\eureka-server" />
