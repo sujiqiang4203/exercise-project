@@ -17,6 +17,8 @@
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/design-pattern/pom.xml" />
         <option value="$PROJECT_DIR$/biancheng/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-server/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-client/pom.xml" />
       </list>
     </option>
   </component>

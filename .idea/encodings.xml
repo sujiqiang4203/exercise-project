@@ -10,6 +10,8 @@
     <file url="file://$PROJECT_DIR$/eureka-server-center/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-service/src/main/java" charset="UTF-8" />
   </component>

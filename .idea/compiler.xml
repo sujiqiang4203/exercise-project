@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="design-pattern" />
         <module name="order-consumer" />
-        <module name="user-service" />
         <module name="eureka-server-center" />
-        <module name="demo" />
         <module name="biancheng" />
+        <module name="rabbitmq-client" />
+        <module name="user-service" />
+        <module name="demo" />
+        <module name="rabbitmq-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +39,8 @@
       <module name="eureka-server-center" options="-parameters" />
       <module name="exercise-project" options="" />
       <module name="order-consumer" options="-parameters" />
+      <module name="rabbitmq-client" options="-parameters" />
+      <module name="rabbitmq-server" options="-parameters" />
       <module name="ribbon-client-order" options="-parameters" />
       <module name="ribbon-server-user2" options="-parameters" />
       <module name="user-server" options="-parameters" />
