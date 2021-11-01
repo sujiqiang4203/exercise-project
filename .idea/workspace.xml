@@ -30,14 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e996fa3f-7135-4998-9ace-3fffb3d31324" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/biancheng/src/main/java/com/sjq/biancheng/Test6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biancheng/src/main/java/com/sjq/biancheng/Test7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-client/src/main/java/com/sjq/rabbitmq/ClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-client/src/main/java/com/sjq/rabbitmq/RabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-server/src/main/java/com/sjq/rabbitmq/HandleMsgService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biancheng/src/main/java/com/sjq/biancheng/CFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biancheng/src/main/java/com/sjq/biancheng/Test8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -302,19 +296,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BianchengApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="biancheng" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sjq.biancheng.BianchengApplication" />
@@ -412,7 +393,9 @@
       <workItem from="1628593438627" duration="1388000" />
       <workItem from="1629779485793" duration="99000" />
       <workItem from="1630477602409" duration="2890000" />
-      <workItem from="1630999160875" duration="1910000" />
+      <workItem from="1630999160875" duration="1974000" />
+      <workItem from="1632293629021" duration="2508000" />
+      <workItem from="1635757082081" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式">
       <created>1620389410096</created>
@@ -435,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629779551336</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="rabbit mq">
+      <created>1631001140785</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631001140786</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -525,18 +515,8 @@
     <MESSAGE value="学习一些属性" />
     <MESSAGE value="设计模式" />
     <MESSAGE value="编程" />
-    <option name="LAST_COMMIT_MESSAGE" value="编程" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/biancheng/src/main/java/com/sjq/biancheng/Test6.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="rabbit mq" />
+    <option name="LAST_COMMIT_MESSAGE" value="rabbit mq" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/demo/pom.xml">
